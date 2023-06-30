@@ -77,7 +77,7 @@ const App = () => {
       <Example>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Navigate to="/home" />}></Route>
+            <Route index element={<Navigate to="/home" />}/>
 
             <Route
               path="/home"
