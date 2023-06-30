@@ -9,7 +9,7 @@ import { Provider } from 'react-redux';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/project_money_guard">
+    <BrowserRouter basename="/react_bc53_Yana2393">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <App />
